@@ -28,12 +28,20 @@ jobs:
       - name: Install SUSHI
         run: npm install -g fsh-sushi
 
-      - name: Run SUSHI
-        run: sushi .
+      - name: Setup Java (for IG Publisher)
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
 
-      # If/when you add the HL7 IG Publisher, you’d call it here
-      # - name: Run IG Publisher
-      #   run: java -jar ./input-cache/org.hl7.fhir.publisher.jar -ig ig.ini
+      - name: Make publisher scripts executable
+        run: chmod +x _updatePublisher.sh _genonce.sh
+
+      - name: Download/Update IG Publisher
+        run: ./_updatePublisher.sh
+
+      - name: Build IG (runs SUSHI + IG Publisher)
+        run: ./_genonce.sh
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
