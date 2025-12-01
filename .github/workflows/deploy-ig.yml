@@ -37,8 +37,8 @@ jobs:
       - name: Make publisher scripts executable
         run: chmod +x _updatePublisher.sh _genonce.sh
 
-      - name: Download/Update IG Publisher
-        run: ./_updatePublisher.sh
+      - name: Download IG Publisher (non-interactive)
+        run: ./_updatePublisher.sh -y
 
       - name: Build IG (runs SUSHI + IG Publisher)
         run: ./_genonce.sh
