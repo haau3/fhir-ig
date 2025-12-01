@@ -1,14 +1,36 @@
-// This is a simple example of a FSH file.
-// This file can be renamed, and additional FSH files can be added.
-// SUSHI will look for definitions in any file using the .fsh ending.
-Profile: MyPatient
-Parent: Patient
-Description: "An example profile of the Patient resource."
-* name 1..* MS
+Profile: Haau3Patient
+Parent: $USCorePatient
+Id: haau3-patient
+Title: "haau3 Patient"
+Description: "Patient profile used within the haau3 ecosystem."
 
-Instance: PatientExample
-InstanceOf: MyPatient
-Description: "An example of a patient with a license to krill."
-* name
-  * given[0] = "James"
-  * family = "Pondd"
+* identifier MS
+* identifier ^slicing.discriminator[0].type = #value
+* identifier ^slicing.discriminator[0].path = "system"
+* identifier ^slicing.rules = #open
+* identifier ^slicing.description = "Slice identifiers by system, including required haau3 canonical patient id."
+
+* identifier contains haau3 1..1 MS // All patients in haau3 will have a hauu3 patient identifier
+
+* identifier[haau3].system 1..1 MS
+* identifier[haau3].system = $HaaU3PatientIdNS (exactly)
+* identifier[haau3].value 1..1 MS
+* identifier[haau3].type.text = "haau3 Patient Identifier"
+
+
+Instance: haau3-patient-example
+InstanceOf: Haau3Patient
+Usage: #example
+Description: "Example haau3 patient with required canonical identifier."
+
+* id = "example-patient"
+
+// required haau3 patient id
+* identifier[haau3].system = $HaaU3PatientIdNS
+* identifier[haau3].value = "pat-12345"
+
+// basic demographics
+* name[0].family = "Fung"
+* name[0].given[0] = "Grandma"
+* gender = #female
+* birthDate = "1911-01-01"

@@ -6,8 +6,8 @@
 id: haau3.fhir
 canonical: https://haau3.com/fhir
 name: HAAU3
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
+title: haau3 FHIR Implementation Guide (HFIG)
+description: The haau3 FHIR IG is designed for patient & caregiver use cases.
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
@@ -18,14 +18,14 @@ releaseLabel: ci-build
 publisher:
   name: haau3
   url: https://haau3.com
-  # email: test@example.org
+  email: hello@haau3.com
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
 #
-# dependencies:
-#   hl7.fhir.us.core: 3.1.0
+dependencies:
+    hl7.fhir.us.core: 6.1.0
 #   hl7.fhir.us.mcode:
 #     id: mcode
 #     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
