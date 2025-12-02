@@ -16,4 +16,4 @@ sharing) over time.
 // * status 1..1 MS
 
 // Required by Carin Blue Button IG
-* subscriberId 1..1 MS
+* subscriberId 1..1 MS // This is the Medicare Beneficiary Identifier (MBI)

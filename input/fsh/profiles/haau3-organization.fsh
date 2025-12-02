@@ -4,8 +4,7 @@ Id: haau3-organization
 Title: "haau3 Organization"
 Description: """
 Organizations relevant to haau3, including payers, providers, and plan
-sponsors imported from Blue Button / payer APIs. Extends US Core Organization
-and keeps room to align with Da Vinci Plan-Net / payer directories over time.
+sponsors imported from Blue Button / payer APIs.
 """
 
 * ^status = #draft

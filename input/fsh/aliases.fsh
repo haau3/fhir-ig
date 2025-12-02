@@ -1,8 +1,10 @@
 // US Core Profiles
-Alias: $USCoreCoverage = http://hl7.org/fhir/us/core/StructureDefinition/us-core-coverage
-Alias: $USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient
-Alias: $USCoreOrganization = http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization
-Alias: $USCoreLocation = http://hl7.org/fhir/us/core/StructureDefinition/us-core-location
+Alias: $USCoreCoverage      = http://hl7.org/fhir/us/core/StructureDefinition/us-core-coverage|6.1.0
+Alias: $USCoreLocation      = http://hl7.org/fhir/us/core/StructureDefinition/us-core-location|6.1.0
+Alias: $USCoreOrganization  = http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization|6.1.0
+Alias: $USCorePatient       = http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient|6.1.0
+Alias: $USCorePractitioner   = http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner|6.1.0
+Alias: $USCoreRelatedPerson = http://hl7.org/fhir/us/core/StructureDefinition/us-core-relatedperson|6.1.0
 
 // External NamingSystems & CodeSystems
 Alias: $CovClassCS = http://terminology.hl7.org/CodeSystem/coverage-class

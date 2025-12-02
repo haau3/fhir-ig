@@ -2,7 +2,7 @@ Profile: Haau3Patient
 Parent: $USCorePatient
 Id: haau3-patient
 Title: "haau3 Patient"
-Description: "Patient profile used within the haau3 ecosystem."
+Description: "A care recipient."
 
 * identifier MS
 * identifier ^slicing.discriminator[0].type = #value
