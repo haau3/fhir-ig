@@ -16,21 +16,3 @@ Description: "A care recipient."
 * identifier[haau3].system = $HaaU3PatientIdNS (exactly)
 * identifier[haau3].value 1..1 MS
 * identifier[haau3].type.text = "haau3 Patient Identifier"
-
-
-Instance: haau3-patient-example
-InstanceOf: Haau3Patient
-Usage: #example
-Description: "Example haau3 patient with required canonical identifier."
-
-* id = "example-patient"
-
-// required haau3 patient id
-* identifier[haau3].system = $HaaU3PatientIdNS
-* identifier[haau3].value = "pat-12345"
-
-// basic demographics
-* name[0].family = "Fung"
-* name[0].given[0] = "Grandma"
-* gender = #female
-* birthDate = "1911-01-01"

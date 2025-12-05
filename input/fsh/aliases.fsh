@@ -13,3 +13,4 @@ Alias: $USNPI = http://hl7.org/fhir/sid/us-npi
 // haau3 - NamingSystems
 Alias: $HaaU3PatientIdNS = https://haau3.com/fhir/NamingSystem/haau3-patient-id
 Alias: $HaaU3ClerkUserIdNS = https://haau3.com/fhir/NamingSystem/clerk-user-id
+Alias: $Haau3CoverageIdNS = https://haau3.com/fhir/NamingSystem/haau3-coverage-id
