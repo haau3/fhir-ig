@@ -26,6 +26,7 @@ publisher:
 #
 dependencies:
     hl7.fhir.us.core: 6.1.0
+    hl7.fhir.uv.sdc: 3.0.0
 #   hl7.fhir.us.mcode:
 #     id: mcode
 #     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode

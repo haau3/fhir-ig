@@ -1,6 +1,6 @@
 Profile: Haau3RelatedPerson
 Parent: $USCoreRelatedPerson
-Id: haau3-relatedPerson
+Id: haau3-related-person
 Title: "haau3 Related Person"
 Description: """
 Individuals related to the patient like caregivers, family members, or guardians.
