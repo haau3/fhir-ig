@@ -3,7 +3,7 @@
 // -------------------------------------------------------------------
 Instance: haau3-organization-cms
 InstanceOf: Haau3Organization
-Title: "Centers for Medicare & Medicaid Services"
+Title: "Organization: Centers for Medicare & Medicaid Services"
 Usage: #example
 Description: """
 Centers for Medicare & Medicaid Services (CMS) as the payer/administrator

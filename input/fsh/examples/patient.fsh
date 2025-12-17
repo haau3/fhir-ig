@@ -1,6 +1,6 @@
 Instance: haau3-patient-example
 InstanceOf: Haau3Patient
-Title: "Grandma Fung"
+Title: "Patient: Grandma Fung"
 Usage: #example
 Description: "Example haau3 patient with required canonical identifier."
 

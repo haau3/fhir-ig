@@ -3,7 +3,7 @@
 // ---------------------------------------------------------------
 Instance: haau3-coverage-medicare-part-c
 InstanceOf: Haau3Coverage
-Title: "Medicare Part C"
+Title: "Coverage: Medicare Part C"
 Usage: #example
 Description: """
 Example CMS Medicare Advantage (Part C) coverage imported from Blue Button,

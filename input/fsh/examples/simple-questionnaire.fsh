@@ -5,7 +5,7 @@ Alias: $launchCtxCS      = http://hl7.org/fhir/uv/sdc/CodeSystem/launchContext
 
 Instance: haau3-questionnaire-example
 InstanceOf: Haau3Questionnaire
-Title: "Patient Demographics"
+Title: "Questionnaire: Patient Demographics"
 Usage: #example
 Description: "Example questionnaire for patient demographics"
 

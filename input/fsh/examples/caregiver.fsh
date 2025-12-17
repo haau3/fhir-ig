@@ -3,7 +3,7 @@
 // -------------------------------------------------------------------
 Instance: haau3-relatedperson-brian-for-grandma-fung
 InstanceOf: Haau3RelatedPerson
-Title: "Brian Fung as caregiver for Grandma Fung"
+Title: "RelatedPerson: Brian Fung as a caregiver"
 Usage: #example
 Description: "Example RelatedPerson representing Brian, caring for Grandma Fung as her grandchild."
 
