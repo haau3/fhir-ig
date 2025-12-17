@@ -9,6 +9,7 @@
 Instance: Haau3PatientId
 InstanceOf: NamingSystem
 Usage: #definition
+Title: "haau3 patient identifier"
 Description: "Stable haau3 patient id. Used on Patient.identifier only."
 * id = "haau3-patient-id"
 * name = "Haau3PatientId"
@@ -32,6 +33,7 @@ Description: "Stable haau3 patient id. Used on Patient.identifier only."
 Instance: ClerkUserId
 InstanceOf: NamingSystem
 Usage: #definition
+Title: "Clerk identifier for an haau3 user"
 Description: "Stable Clerk user id for haau3 users. Used only on Person resources."
 * id = "clerk-user-id"
 * name = "ClerkUserId"
@@ -54,6 +56,7 @@ Description: "Stable Clerk user id for haau3 users. Used only on Person resource
 Instance: EpicPatientId
 InstanceOf: NamingSystem
 Usage: #definition
+Title: "Epic patient identifier"
 Description: "Patient identifiers assigned by Epic systems (MyChart, Epic FHIR)."
 * id = "epic-patient-id"
 * name = "EpicPatientId"
@@ -76,6 +79,7 @@ Description: "Patient identifiers assigned by Epic systems (MyChart, Epic FHIR).
 Instance: EpicMRN
 InstanceOf: NamingSystem
 Usage: #definition
+Title: "Epic patient MRN"
 Description: "Epic MRN identifier namespace."
 * id = "epic-mrn"
 * name = "EpicMRN"
@@ -98,6 +102,7 @@ Description: "Epic MRN identifier namespace."
 Instance: Haau3CoverageId
 InstanceOf: NamingSystem
 Usage: #definition
+Title: "haau3 coverage identifier"
 Description: """
 Stable haau3 coverage id used for normalized Coverage.identifier.system.
 Format: {payorCode}-{group}-{plan}-{subscriberId}.
