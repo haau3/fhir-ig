@@ -1,7 +1,7 @@
 Profile: Haau3Patient
 Parent: $USCorePatient
 Id: haau3-patient
-Title: "haau3 Patient"
+Title: "Patient"
 Description: "A care recipient."
 
 * identifier MS

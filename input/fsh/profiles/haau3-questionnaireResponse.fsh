@@ -1,7 +1,7 @@
 Profile: Haau3QuestionnaireResponse
 Parent: $USCoreQuestionnaireResponse
 Id: haau3-questionnaire-response
-Title: "haau3 Questionnaire Response"
+Title: "Questionnaire Response"
 Description: """
 An individual's response to a questionnaire/form.
 """

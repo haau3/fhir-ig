@@ -1,7 +1,7 @@
 Profile: Haau3Organization
 Parent: $USCoreOrganization
 Id: haau3-organization
-Title: "haau3 Organization"
+Title: "Organization"
 Description: """
 Organizations relevant to haau3, including payers, providers, and plan
 sponsors imported from Blue Button / payer APIs.

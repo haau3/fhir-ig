@@ -10,6 +10,9 @@ Alias: $USCoreQuestionnaireResponse = http://hl7.org/fhir/us/core/StructureDefin
 // Structured Data Capture (SDC)
 Alias: $SDCQuestionnaire = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
 
+// National Directory of Healthcare Providers & Services (NDH)
+Alias: $NDH = http://hl7.org/fhir/us/ndh/ImplementationGuide/hl7.fhir.us.ndh|2.0.0
+
 // External NamingSystems & CodeSystems
 Alias: $CovClassCS = http://terminology.hl7.org/CodeSystem/coverage-class
 Alias: $USNPI      = http://hl7.org/fhir/sid/us-npi

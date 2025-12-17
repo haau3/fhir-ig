@@ -1,7 +1,7 @@
 Profile: Haau3Person
 Parent: Person
 Id: haau3-person
-Title: "haau3 Person"
+Title: "Person"
 Description: """
 An individual who manages care for one or more patients, but can also manage their own care.
 """

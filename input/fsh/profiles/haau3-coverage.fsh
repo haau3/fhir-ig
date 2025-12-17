@@ -1,7 +1,7 @@
 Profile: Haau3Coverage
 Parent: $USCoreCoverage
 Id: haau3-coverage
-Title: "haau3 Coverage"
+Title: "Coverage"
 Description: """
 Coverage information for haau3, primarily sourced from CARIN Blue Button /
 Blue Button APIs and payer feeds. Builds on US Core Coverage and is designed

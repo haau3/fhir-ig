@@ -1,7 +1,7 @@
 Profile: Haau3Questionnaire
 Parent: $SDCQuestionnaire
 Id: haau3-questionnaire
-Title: "haau3 Questionnaire"
+Title: "Questionnaire"
 Description: """
 A questionnaire or form
 """
