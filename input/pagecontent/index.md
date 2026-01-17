@@ -20,7 +20,7 @@ To take advantage of the latest technology innovations, HFIG will be anchored on
 - [US Core 6.1.0](https://hl7.org/fhir/us/core/STU6.1/index.html)
 - [USCDI v3](https://www.healthit.gov/isp/united-states-core-data-interoperability-uscdi#uscdi-v3)
 - [FHIR Specification R4](https://hl7.org/fhir/R4/)
-- [Structured Data Capture 3.0.0](https://build.fhir.org/ig/HL7/sdc/en/index.html)
+- [Structured Data Capture 3.0.0](https://hl7.org/fhir/uv/sdc/)
 - [National Directory of Healthcare Providers & Services (NDH) 2.0.0](https://build.fhir.org/ig/HL7/fhir-us-ndh/)
 - [CARIN Consumer Directed Payer Data Exchange (CARIN IG for Blue Button®)](https://build.fhir.org/ig/HL7/carin-bb/)
 - [HL7 Da Vinci Payer Data Exchange (PDex)](https://build.fhir.org/ig/HL7/davinci-epdx/)
@@ -28,6 +28,7 @@ To take advantage of the latest technology innovations, HFIG will be anchored on
 - [SMART App Launch](https://build.fhir.org/ig/HL7/smart-app-launch/)
 - [SMART Scheduling Links](https://github.com/smart-on-fhir/smart-scheduling-links/tree/master)
 - [SMART Health Cards and Links 1.0.0](https://build.fhir.org/ig/HL7/smart-health-cards-and-links/)
+- [Continuous Glucose Monitoring 1.0.0](https://hl7.org/fhir/uv/cgm/)
 
 ### Authors
 Brian K Fung - brian@briankfung.com
