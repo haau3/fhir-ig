@@ -25,6 +25,7 @@ To take advantage of the latest technology innovations, HFIG will be anchored on
 - [CARIN Consumer Directed Payer Data Exchange (CARIN IG for Blue Button®) 2.1.0](https://hl7.org/fhir/us/carin-bb/STU2.1/)
 - [HL7 Da Vinci Payer Data Exchange (PDex) 2.1.0](https://hl7.org/fhir/us/davinci-pdex/STU2.1/)
 - [International Patient Summary 2.0.0](http://hl7.org/fhir/uv/ips/STU2/index.html)
+- [US International Patient Summary](https://confluence.hl7.org/spaces/CGP/pages/413243278/FHIR+Patient+Summary+of+the+United+States+SOTUS)
 - [Internalional Patient Access 1.1.0](http://hl7.org/fhir/uv/ipa/STU1.1/index.html)
 - [SMART App Launch 2.2.0](https://hl7.org/fhir/smart-app-launch/STU2.2/)
 - [SMART Scheduling Links](https://github.com/Culby/smart-scheduling-links)
