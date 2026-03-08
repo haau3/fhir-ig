@@ -32,5 +32,7 @@ To take advantage of the latest technology innovations, HFIG will be anchored on
 - [SMART Health Cards and Links 1.0.0](https://hl7.org/fhir/uv/smart-health-cards-and-links/)
 - [Continuous Glucose Monitoring 1.0.0](https://hl7.org/fhir/uv/cgm/)
 
+{% lang-fragment dependency-table-nontech.xhtml %}
+
 ### Authors
 Brian K Fung - brian@briankfung.com

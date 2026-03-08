@@ -5,16 +5,16 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: haau3.fhir
 canonical: https://haau3.com/fhir
-name: HAAU3
+name: haau3
 title: haau3 FHIR Implementation Guide (HFIG)
 description: The haau3 FHIR IG is designed for patient & caregiver use cases.
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
-copyrightYear: 2025+
+copyrightYear: 2026+
 releaseLabel: ci-build
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
-# jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
   name: haau3
   url: https://haau3.com
@@ -25,14 +25,27 @@ publisher:
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 dependencies:
-    hl7.fhir.us.core: 6.1.0
-    hl7.fhir.uv.sdc: 3.0.0
-#   hl7.fhir.us.mcode:
-#     id: mcode
-#     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
-#     version: 1.0.0
-#
-#
+    hl7.fhir.us.core: 
+      id: USCore
+      uri: http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core
+      version: 6.1.0
+      reason: "To set a baseline for all profiles"
+    hl7.fhir.uv.sdc: 
+      id: StructuredDataCaptureIG
+      uri: http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc
+      version: 3.0.0
+      reason: "For using Questionnaire and related resources for data capture"
+    hl7.fhir.uv.ips: 
+      id: InternationalPatientSummaryIG
+      uri: http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips
+      version: 2.0.0
+      reason: "For aligning on minimal data elements for sharing"
+    hl7.fhir.us.carin-bb:
+      id: CARINConsumerDirectedPayerDataExchange
+      uri: http://hl7.org/fhir/us/carin-bb/ImplementationGuide/hl7.fhir.us.carin-bb
+      version: 2.1.0
+      reason: "For ingesting the common payer consumer data set (CPCDS)"
+
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in
 # this file, it is assumed that the author will fully manage the
