@@ -36,3 +36,8 @@ To take advantage of the latest technology innovations, HFIG will be anchored on
 
 ### Authors
 Brian K Fung - brian@briankfung.com
+
+### Intellectual Property Considerations
+This implementation guide and the underlying FHIR Specification are licensed as public domain under the FHIR license. Further, this guide includes examples making use of terminologies such as LOINC, SNOMED CT and others that have more restrictive licensing requirements. Implementers should make themselves familiar with licensing and any other constraints of terminologies and other components used as part of their implementation process. 
+
+{% lang-fragment ip-statements.xhtml %}
