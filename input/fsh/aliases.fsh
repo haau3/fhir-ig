@@ -2,6 +2,7 @@
 //-- US Core Profiles
 Alias: $USCoreCareTeam              = http://hl7.org/fhir/us/core/StructureDefinition/us-core-careteam|6.1.0
 Alias: $USCoreCoverage              = http://hl7.org/fhir/us/core/StructureDefinition/us-core-coverage|6.1.0
+Alias: $USCoreDocumentReference     = http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference|6.1.0
 Alias: $USCoreLocation              = http://hl7.org/fhir/us/core/StructureDefinition/us-core-location|6.1.0
 Alias: $USCoreOrganization          = http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization|6.1.0
 Alias: $USCorePatient               = http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient|6.1.0
@@ -18,6 +19,9 @@ Alias: $DaVinci = http://hl7.org/fhir/us/davinci-pdex/ImplementationGuide/hl7.fh
 // External NamingSystems & CodeSystems
 Alias: $CovClassCS = http://terminology.hl7.org/CodeSystem/coverage-class
 Alias: $USNPI      = http://hl7.org/fhir/sid/us-npi
+Alias: $loinc      = http://loinc.org
+Alias: $snomed     = http://snomed.info/sct
+Alias: $rxnorm     = http://www.nlm.nih.gov/research/umls/rxnorm
 
 // Internal
 // haau3 - NamingSystems
